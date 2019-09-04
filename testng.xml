@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Preethi" parallel="tests">
+  <test name="Preethi_Test">
+    <classes>
+      <class name="Preethi_T_Day1.Priority"/>
+       <class name="Preethi_T_Day1.Credentials"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Preethi_Test1">
+    <classes>
+      <class name="Preethi_T_Day1.Priority"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

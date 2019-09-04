@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Preethi_T_Day1.SoftAssertions">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Preethi_T_Day1.SoftAssertions -->
+      <class name="Preethi_T_Day1.HardAssertions">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Preethi_T_Day1.HardAssertions -->
+      <class name="Preethi_T_Day1.Annotations_All_demo">
+        <methods>
+          <include name="b"/>
+          <include name="a3"/>
+          <include name="a1"/>
+          <include name="b2"/>
+          <include name="a2"/>
+          <include name="b3"/>
+          <include name="a"/>
+          <include name="b1"/>
+        </methods>
+      </class> <!-- Preethi_T_Day1.Annotations_All_demo -->
+      <class name="Preethi_T_Day1.Annotations_All">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Preethi_T_Day1.Annotations_All -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
